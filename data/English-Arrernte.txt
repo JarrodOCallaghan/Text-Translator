@@ -1,18 +1,20 @@
-Eng-CEA
 a:anyente
 an:anyente
-above:akernte
-above:akertnentye
-accept somthing:ineme
-ache:arnteme
-ache:kwarneme
-ache:arlkweme
-across:talkwe
-across:rtalkwe
-ankle:alkngarurrke
-ankle:alkngerurrke
-another:arrpenhe
-another:ikngwere
-answer:tyerneme
-reply:tyerneme
-respond:tyerneme
+particular one:anyente
+abandon:
+|dump somthing:ipmentye-iweme
+|leave somthing behind:impeme
+|throw somthing away:iweme
+|abandoned:ampetye
+|abandoned:ampetye-ampetye
+|abandoned, left on your own:irrkwelye
+|empty (house, camp):arltwe
+|old abandoned (place):ampweyampwe
+able to do somthing well and confidently:ulyeye
+aboriginal:
+|aboriginal language:angkentye
+|aboriginal language:angketye
+|aboriginal person:arelhe
+|aboriginal person:tyerrtye
+|aboriginal person:urrperle
+|aboriginal person:arelhe tyrrtye urrperle

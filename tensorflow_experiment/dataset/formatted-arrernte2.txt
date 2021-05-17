@@ -1283,7 +1283,7 @@ urinpe	hot
 urinpe	hot weather
 urlampe‑urlampe	heronulampe‑ulampe
 urlare	deliberately
-urlare	for a reasonulare
+urlare	for a reason
 urle	forehead
 urlkere	slippery
 urlkere	smooth
@@ -1406,4 +1406,54 @@ Ulyentye ahate aneme.	The shadows are short.
 Athakwerele merne ahate ilemele arlkweke.	A mouse ate the end off the bread.
 Arlte ahate-irreme alhwerrpenge.	The days get shorter in winter.
 merne ahate-irreme	food running out
-Uterne ahate-irreme.	The sun is getting low
+Uterne ahate-irreme.	The sun is getting low.
+Anwerne Alheke Yerrampeke	We went for honey-ants
+Anwerne Mparntwe-arenye tyerrtye mapele arrenhantherre welcome-ileme apmere anwerne-kenhe-werne. Anwerne ahentye-aneme arrantherre akaltye-irremele respectem-iletyeke apmere nhenhe.	We, the people who belong to Alice Springs, welcome you to our country. We hope you will learn about, and respect our country. We, the people who belong to Alice Springs.
+Yekaye, urinpe anthurre	Gee, it's really hot
+Meye, atnerte ayenge ampeme, ayenge angayakwe	Mum, my stomach's aching from hunger
+Urreke, akarelhaye, the merne iteme	Wait, I'm cooking food
+Iwenhe yanhe	What's that?
+Nhenhe kere arlewatyerre	This is a goanna
+Nthakenhe unte iteme?	How do you cook it?
+Kere arlewatyerre alpmanthele iteme	Goanna is cooked in the hot earth
+Kere yanhe iwenhe-arteke?	What's that meat like?
+Kere nhenhe chicken-arteke	This meat is like chicken
+Kele, kere akweke ayenge anthaye	Okay give me a little meat
+Yekaye, mwerre akngerre anthurre, awethe avenge anthaye!	Oh, it's really good. Give me some more!
+Me, awethe arlkwaye!	Here, take it. Eat some more!
+Apetyaye!	Come here!
+Werte, iwenhe aperte?	Hello, what's up?
+Ayenge ngkethakwe anthurre	I'm really thirsty
+Unte nthenhe-arenye?	Where are you from?
+Ayenge Mparntwe-arenye	I'm from Alice Springs
+Ayenge Kngwarraye	I'm a Kngwarraye
+Ayenge Peltharre	I'm a Peltharre
+Unte akngeye atyenhe	You're my father
+unte alere atyenhe	You're my son
+Akngeyaye, kwatye anthaye	Father, give me water!
+Yaye ngkwinhe mwerre?	Is your elder sister well?
+Ye, mwerre anthurre	Yes, she's really well
+Re anewe-akerte?	Is she married?
+Ye, re a newe-akerte	Yes, she is married
+Re ampe akweke-akerte?	Has she got children?
+Ye, re ampe urrpetye-akerte	Yes, she's got three children
+Nthenhele itne aneme?	Where do they live?
+Itne Imengkwernele aneme	They live at Amoonguna
+Arratye? Atyeye atyenhe yanhele aneme	True? My younger brother sister lives over there
+Unte nthenhe-arenye?	Where are you from?
+Atyenge ilaye, atyenge ilaye.	Tell me! Tell me!
+Ayenge apmere ikngerre-arenye.	I'm from a place in the east.
+Ltyentye Apurte, Ltyentye Apurte.	Santa Teresa, Santa Teresa.
+Apmere nhenhe mwerre anthurre.	That's very good place.
+Apetyaye!	Come here!
+Nthenhe-werne alheme?	Where are you going?
+Apmere-werne	Home
+Iwenheke?	What for?
+Kereke	For meat
+Unte apetyeme?	Are you coming?
+Kele, ayenge apetyeme	Okay, I'm coming
+Arelhele mwantyele arntarnte-areme amperlkerte	The woman is carefully looking after the sick child
+Re a pale alheke	He went the wrong way
+Re uyarne akarelheke, kele imernte apmere-werne alpemele	He waited in vain so he went home
+Re a rnterre anthurre antewe-irreme merne-arle akngerre arlkweke-iperre	He's really vomiting after eating a lot
+Iparrpe untemele inaye, re i tnyemele untye ultakelheketye	Quickly run and get him before he falls and breaks his neck

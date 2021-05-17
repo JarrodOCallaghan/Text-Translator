@@ -13,7 +13,7 @@ import os
 import io
 import time
 
-path_to_file = r'C:\Users\Jarrod\Documents\Text-Translator\tensorflow_experiment\dataset/formatted-arrernte2.txt'
+path_to_file = r'C:\Users\Jarrod\Documents\Text-Translator\tensorflow_experiment\dataset\formatted-arrernte2.txt'
 #path_to_file = '/home/jarrod/Documents/Text-Translator/tensorflow_experiment/dataset/formatted-arrernte2.txt'
 dirname = os.path.dirname(path_to_file)
 
@@ -43,12 +43,12 @@ def preprocess_sentence(w):
 
 
 
-'''
+
 eng_sentence = u"Yes, I'm alright"
 arr_sentence = u"Ye, ayenge mwerre"
 print(preprocess_sentence(eng_sentence))
 print(preprocess_sentence(arr_sentence).encode('utf-8'))
-'''
+
 # 1. Remove the accents
 # 2. Clean the sentences
 def create_dataset(path, num_examples):
@@ -84,7 +84,7 @@ def load_dataset(path, num_examples):
 
 	return input_tensor, target_tensor, inp_lang_tokenizer, targ_lang_tokenizer
 
-num_examples = 1000
+num_examples = 1459
 input_tensor, target_tensor, inp_lang, targ_lang = load_dataset(path_to_file, num_examples)
 max_length_targ, max_length_inp, = target_tensor.shape[1], input_tensor.shape[1]
 
@@ -242,8 +242,11 @@ def train_step(inp, targ, enc_hidden):
 		optimizer.apply_gradients(zip(gradients, variables))
 		return batch_loss
 
+
+
+
 def call_training():
-	EPOCHS = 10
+	EPOCHS = 100
 	for epoch in range(EPOCHS):
 		start = time.time()
 
@@ -319,8 +322,10 @@ def translate(sentence):
   plot_attention(attention_plot, sentence.split(' '), result.split(' '))
 
 
-
-checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 #call_training()
-translate(u'bad')
-translate(u'what are you doing')
+checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
+
+#translate(u'bad')
+translate(u'Hello, how are you')
+translate(u'He hit the man')
+translate(u'The kangaroo is angry')

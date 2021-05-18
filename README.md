@@ -39,3 +39,5 @@ VIM 8.1
 REQUIREMENTS: 
 autopep8    1.5.7
 
+Experimenting with Tensorflow for 'Neural machine translation with attention'.
+*Tensorflow is licensed under Apache License 2.0 

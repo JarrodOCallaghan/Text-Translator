@@ -1,1 +1,4 @@
 env/*
+*.index
+ckpt-*
+tensorflow_experiment/training_checkpoints/checkpoint

@@ -1,12 +1,14 @@
 import sys
 import os
+import lib.dictionary as d
 
 def main():
 ##Main menu for the program
 	print("Text translator for English and Eastern Central Arrernte")
-	menu(sys.argv)
+	dictionary = d.Dictionary()
+	menu(sys.argv, dictionary)
 
-def menu(arguments):
+def menu(arguments, dictionary):
 
 	#Options:
 	#No arguments given, print basic help (sys.argv only has python file name as arg[0])
@@ -17,7 +19,6 @@ def menu(arguments):
 		print(text_help)
 	elif arguments[1] == '-s' or arguments[1] == '--single-word':
 	#Single text using -s or --single-word
-		print("SWT")
 		if len(arguments) == 2:
 			#If language flag not included
 			print("Please include source language as flags -en or -ar")
@@ -29,8 +30,7 @@ def menu(arguments):
 			else:
 				if len(arguments) >= 5:
 					print("Multiple words detected, only translating the first word")
-				else:
-					print("Translating")
+				print(dictionary.lookup_word(arguments[2], arguments[3]))
 		else:
 			print("Please include source language as flags -en or -ar")
 
@@ -69,6 +69,6 @@ def menu(arguments):
 
 text_basic_help = "Help: [-h/--help]\nSingle word: [-s/--single-word] [-en/-ar] <word>.\nDirect translation [-d/--direct] [-en/-ar] <Body of test>.\nMachine Learning Translating [-ml] [-en/-ar] <Body of text>\nExample: python3 main.py -d -ar Werte ahelhe!"
 
-text_help = "Help: [-h/--help]\nSingle Word Translating is achieved by a word lookup in the Data/ENG-CEA-Dictionary.txt file. It should be noted that the wordlist is a work in progress as there is no central digital dictionary to use and this is created from different resources. The CEA Acronym stands for Central-Eastern Arrernte\nUsage: [-s/--single-word] [-en/-ar] <word>.\nExample: python3 text-translator.py -s -en Hello\n\nDirect translation is similar to the single word translation. Does not take into account syntax.\nUsage [-d/--direct] [-en/-ar] <Body of test>.\nExample: python3 text-translator.py -d -ar Werte ahelhe!\n\nThe machine learning translation is a work in progress still. It is implemented using Google's Tensor Flow. Due to the limited dataset, it may prove innacurate.\nUsage: [-ml] [-en/-ar] <Body of text>\nExample: python3 text-translator.py -ml -en Hey! Over there!"
+text_help = "Help: [-h/--help]\nSingle Word Translating is achieved by a word lookup in the Data/ENG-CEA-Dictionary.txt file. It should be noted that the wordlist is a work in progress as there is no central digital dictionary to use and this is created from different resources. The CEA Acronym stands for Central-Eastern Arrernte\nUsage: [-s/--single-word] [-en/-ar] <word>.\nExample: python3 text-translator.py -s -en Hello\n\nDirect translation is similar to the single word translation. Does not take into account syntax.\nUsage [-d/--direct] [-en/-ar] <Body of test>.\nExample: python3 text-translator.py -d -ar Werte ahelhe!\n\nThe machine learning translation is a work in progress still. It is implemented using Google's Tensor Flow. Due to the limited dataset, it may prove innacurate.\nUsage: [-ml] [-en/-ar] <Body of text>\nExample: python3 text-translator.py -ml -en Hey! Over there!\n "
 if __name__ == "__main__":
 	main()

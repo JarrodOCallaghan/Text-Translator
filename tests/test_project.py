@@ -19,57 +19,59 @@ class Test_dictionary(unittest.TestCase):
 
 class Test_word_object(unittest.TestCase):
 	def test_word_init(self):
-		try: 
+		try:
 			word_object = Word()
 		except:
 			self.fail("Unable to create error")
 
 class Test_dictionary(unittest.TestCase):
+
 	def test_dictionary_init(self):
 	#Check that creating a new dictionary object works
 		try:
-			dictionary_object = d.Dictionary();
+			dictionary_object = d.Dictionary()
 		except:
 			self.fail("Unable to create empty Dictionary Object.")
-	
+
 	def test_dictionary_init(self):
 	#Check that a dictionary object isnt empty
 		dictionary_object = Dictionary()
 		assertTrue(dictionary_object.words().len() != 0)
 
-class Test_single_word_translation(self):
 	def test_eng_single_word(self):
+		dictionary = d.Dictionary()
 		language = "-en"
 		word = "Hello"
-		translation = single_word_translation.getTranslation(language, word)
+		translation = dictionary.lookup_word(language, word)
 		self.assertEqual(translation, "Werte")
 
 	def test_eng_single_word_with_Special_character(self):
+		dictionary = d.Dictionary()
 		language = "-en"
 		word = "Hello!"
-		translation = single_word_translation.getTranslation(language,word)
+		translation = dictionary.lookup_word(language,word)
 		self.assertEqual(translation, "Werte!")
-	
 
 	def test_cea_single_word(self):
+		dictionary = d.Dictionary()
 		language = "-ar"
 		word = "Werte"
-		translation = single_word_translation.getTranslation(language, word)
+		translation = dictionary.lookup_word(language,word)
 		self.assertEqual(translation, "Hello")
 
 	def test_cea_single_word_with_Special_character(self):
+		dictionary = d.Dictionary()
 		language = "-ar"
 		word = "Werte!"
-		translation = single_word_translation.getTranslation(language, word)
+		translation = dictionary.lookup_word(language,word)
 		self.assertEqual(translation, "Hello!")
 
 	def test_eng_word_no_translation(self):
+		dictionary = d.Dictionary()
 		language = '-en'
 		word = "NOTDICTIONARYWORD"
-		translation = single_word_translation.getTranslation(language, word)
+		translation = dictionary.lookup_word(language,word)
 		self.assertEqual(translation, "Unable to find word")
-
-
 
 
 if __name__ == '__main__':

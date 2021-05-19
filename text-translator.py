@@ -1,14 +1,16 @@
 import sys
 import os
 import lib.dictionary as d
+import lib.translator as t
 
 def main():
 ##Main menu for the program
 	print("Text translator for English and Eastern Central Arrernte")
 	dictionary = d.Dictionary()
-	menu(sys.argv, dictionary)
+	translator = t.Translator(dictionary)
+	menu(sys.argv, dictionary, translator)
 
-def menu(arguments, dictionary):
+def menu(arguments, dictionary, translator):
 
 	#Options:
 	#No arguments given, print basic help (sys.argv only has python file name as arg[0])
@@ -35,7 +37,7 @@ def menu(arguments, dictionary):
 			print("Please include source language as flags -en or -ar")
 
 	elif arguments[1] == '-d' or arguments[1] == '--direct':
-		print("Direct translation")
+		print("Direct translation: ")
 		if len(arguments) == 2:
 			#If language flag not included
 			print("Please include source language as flags -en or -ar")
@@ -45,7 +47,12 @@ def menu(arguments, dictionary):
 				#no word was provided
 				print("Please enter a sentence to translate")
 			else:
-				print("Translating")
+				i = 3
+				to_translate = ""
+				while i < len(arguments):
+					to_translate = to_translate + " " + arguments[i]
+					i += 1
+				print(translator.translate_direct(arguments[2], to_translate))
 		else:
 			print("Please include source language as flags -en or -ar")
 	elif arguments[1] == '-ml':

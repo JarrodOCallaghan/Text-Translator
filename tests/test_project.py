@@ -3,7 +3,7 @@ import lib.translate_word as t
 import lib.word
 import lib.dictionary as d
 
-class TestDictionary(unittest.TestCase):
+class Test_dictionary(unittest.TestCase):
 	def test_translate_ENG_Arr_Single_definition(self):
 		#If an English word only has 1 Arrernte Word
 		word = "a"
@@ -17,14 +17,14 @@ class TestDictionary(unittest.TestCase):
 		translation = t.get_word_translation("eng", word)
 		self.assertEqual(translation, ["arnteme","kwarneme","arlkweme"])
 
-class TestWordObject(unittest.TestCase):
+class Test_word_object(unittest.TestCase):
 	def test_word_init(self):
 		try: 
 			word_object = Word()
 		except:
 			self.fail("Unable to create error")
 
-class TestDictionary(unittest.TestCase):
+class Test_dictionary(unittest.TestCase):
 	def test_dictionary_init(self):
 	#Check that creating a new dictionary object works
 		try:
@@ -37,6 +37,40 @@ class TestDictionary(unittest.TestCase):
 		dictionary_object = Dictionary()
 		assertTrue(dictionary_object.words().len() != 0)
 
+class Test_single_word_translation(self):
+	def test_eng_single_word(self):
+		language = "-en"
+		word = "Hello"
+		translation = single_word_translation.getTranslation(language, word)
+		self.assertEqual(translation, "Werte")
+
+	def test_eng_single_word_with_Special_character(self):
+		language = "-en"
+		word = "Hello!"
+		translation = single_word_translation.getTranslation(language,word)
+		self.assertEqual(translation, "Werte!")
 	
+
+	def test_cea_single_word(self):
+		language = "-ar"
+		word = "Werte"
+		translation = single_word_translation.getTranslation(language, word)
+		self.assertEqual(translation, "Hello")
+
+	def test_cea_single_word_with_Special_character(self):
+		language = "-ar"
+		word = "Werte!"
+		translation = single_word_translation.getTranslation(language, word)
+		self.assertEqual(translation, "Hello!")
+
+	def test_eng_word_no_translation(self):
+		language = '-en'
+		word = "NOTDICTIONARYWORD"
+		translation = single_word_translation.getTranslation(language, word)
+		self.assertEqual(translation, "Unable to find word")
+
+
+
+
 if __name__ == '__main__':
     unittest.main()

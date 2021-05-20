@@ -57,9 +57,6 @@ def menu(arguments, dictionary, translator):
                 while i < len(arguments):
                     to_translate = to_translate + " " + arguments[i]
                     i += 1
-                for word in translator.translate_direct(
-                        arguments[2], to_translate):
-                    print(word)
                 print(translator.translate_direct(arguments[2], to_translate))
         else:
             print("Please include source language as flags -en or -ar")
@@ -85,6 +82,6 @@ def menu(arguments, dictionary, translator):
 
 text_basic_help = "Help: [-h/--help]\nSingle word: [-s/--single-word] [-en/-ar] <word>.\nDirect translation [-d/--direct] [-en/-ar] <Body of test>.\nMachine Learning Translating [-ml] [-en/-ar] <Body of text>\nExample: python3 main.py -d -ar Werte ahelhe!"
 
-text_help = "Help: [-h/--help]\nSingle Word Translating is achieved by a word lookup in the Data/ENG-CEA-Dictionary.txt file. It should be noted that the wordlist is a work in progress as there is no central digital dictionary to use and this is created from different resources. The CEA Acronym stands for Central-Eastern Arrernte\nUsage: [-s/--single-word] [-en/-ar] <word>.\nExample: python3 text-translator.py -s -en Hello\n\nDirect translation is similar to the single word translation. Does not take into account syntax.\nUsage [-d/--direct] [-en/-ar] <Body of test>.\nExample: python3 text-translator.py -d -ar Werte ahelhe!\n\nThe machine learning translation is a work in progress still. It is implemented using Google's Tensor Flow. Due to the limited dataset, it may prove innacurate.\nUsage: [-ml] [-en/-ar] <Body of text>\nExample: python3 text-translator.py -ml -en Hey! Over there!\n "
+text_help = "Help: [-h/--help]\nSingle Word Translating is achieved by a word lookup in the Data/ENG-CEA-Dictionary.txt file. It should be noted that the wordlist is a work in progress as there is no central digital dictionary to use and this is created from different resources. The CEA Acronym stands for Central-Eastern Arrernte\nUsage: [-s/--single-word] [-en/-ar] <word>.\nExample: python3 text-translator.py -s -en Hello\n\nDirect translation is similar to the single word translation. Does not take into account syntax.\nUsage [-d/--direct] [-en/-ar] <Body of test>.\nExample: python3 text-translator.py -d -ar Werte ahelhe!\n\nThe machine learning translation is a work in progress still. It is implemented using Google's Tensor Flow. Due to the limited dataset, it may prove inaccurate.\nUsage: [-ml] [-en/-ar] <Body of text>\nExample: python3 text-translator.py -ml -en Hey! Over there!\n "
 if __name__ == "__main__":
     main()

@@ -1,50 +1,60 @@
 import unittest
 import lib.translator as t
-import lib.word
+import lib.word as w
 import lib.dictionary as d
 
-class Test_dictionary(unittest.TestCase):
-	def test_translate_ENG_Arr_Single_definition(self):
-		#If an English word only has 1 Arrernte Word
-		word = "a"
-		translation = t.get_word_translation("eng", word)
-		self.assertEqual(translation, "anyente")
+class Test_Dictionary(unittest.TestCase):
 
-	@unittest.skip("Skipping for testing")
-	def test_translate_ENG_ARR_Multiple_definition(self):
-		#If an English word has multiple Arrernte Words
-		word = "ache"
-		translation = t.get_word_translation("eng", word)
-		self.assertEqual(translation, ["arnteme","kwarneme","arlkweme"])
-
-class Test_word_object(unittest.TestCase):
-	def test_word_init(self):
+	def test_dictionary_creation(self):
 		try:
-			word_object = Word()
+			dictionary = d.Dictionary()
 		except:
-			self.fail("Unable to create error")
+			self.fail("Unable to create Dictionary")
 
-class Test_dictionary(unittest.TestCase):
-
-	def test_dictionary_init(self):
-	#Check that creating a new dictionary object works
-		try:
-			dictionary_object = d.Dictionary()
-		except:
-			self.fail("Unable to create empty Dictionary Object.")
-
-	def test_dictionary_init(self):
-	#Check that a dictionary object isnt empty
-		dictionary_object = Dictionary()
-		assertTrue(dictionary_object.words().len() != 0)
-
-	def test_eng_single_word(self):
+	def test_get_wordlist(self):
 		dictionary = d.Dictionary()
-		language = "-en"
-		word = "Hello"
-		translation = dictionary.lookup_word(language, word)
-		self.assertEqual(translation, "Werte")
+		wordlist = dictionary.get_wordlist()
+		self.assertNotEqual(len(wordlist), 0)
 
+	def test_get_wordlist_file_does_not_exist(self):
+		with self.assertRaises(FileNotFoundError):
+			dictionary = d.Dictionary()
+			wordlist = dictionary.get_wordlist(" ")
+
+
+class Test_Word(unittest.TestCase):
+	def test_new_word(self):
+		try:
+			word = w.Word("A","B")
+		except:
+			self.fail("Unable to create word object")
+
+
+class Test_single_translator(unittest.TestCase):
+	@classmethod
+	def setUpClass(cls):
+		cls.dictionary = d.Dictionary()
+		cls.wordlist = cls.dictionary.get_wordlist()
+		cls.translator = t.Translator(cls.dictionary)
+
+	def test_single_word_en_one_response(self):
+		self.assertEqual(self.translator.translate_single_word('-en', 'ground'), ['ahelhe'])
+
+	def test_single_word_en_multiple_response(self):
+		self.assertEqual(self.translator.translate_single_word('-en', 'throat'), ['ahentye','ite','pmulpere','pmwelpere'])
+	def test_single_word_ar_unknown_response(self):
+		self.assertEqual(self.translator.translate_single_word('-ar', 'NOTAWORD'), ['?'])
+
+	def test_single_word_en_unknown_response(self):
+		self.assertEqual(self.translator.translate_single_word('-en', 'NOTAWORD'), ['?'])
+
+	def test_single_word_ar_one_response(self):
+		self.assertEqual(self.translator.translate_single_word('-ar', 'ulte'), ['side'])
+
+	def test_single_word_ar_multiple_response(self):
+		self.assertEqual(self.translator.translate_single_word('-ar', 'tyelpme'), ['chips of wood', 'splinter'])
+
+	@unittest.skip("ToDo")
 	def test_eng_single_word_with_Special_character(self):
 		dictionary = d.Dictionary()
 		language = "-en"
@@ -52,27 +62,19 @@ class Test_dictionary(unittest.TestCase):
 		translation = dictionary.lookup_word(language,word)
 		self.assertEqual(translation, "Werte!")
 
-	def test_cea_single_word(self):
-		dictionary = d.Dictionary()
-		language = "-ar"
-		word = "Werte"
-		translation = dictionary.lookup_word(language,word)
-		self.assertEqual(translation, "Hello")
+class Test_dictionary(unittest.TestCase):
+	@classmethod
+	def setUpClass(cls):
+		cls.dictionary = d.Dictionary()
+		cls.wordlist = cls.dictionary.get_wordlist()
+		cls.translator = t.Translator(cls.dictionary)
 
-	def test_cea_single_word_with_Special_character(self):
-		dictionary = d.Dictionary()
-		language = "-ar"
-		word = "Werte!"
-		translation = dictionary.lookup_word(language,word)
-		self.assertEqual(translation, "Hello!")
-
-	def test_eng_word_no_translation(self):
-		dictionary = d.Dictionary()
-		language = '-en'
-		word = "NOTDICTIONARYWORD"
-		translation = dictionary.lookup_word(language,word)
-		self.assertEqual(translation, "Unable to find word")
-
+	def test_dictionary_init(self):
+	#Check that creating a new dictionary object works
+		try:
+			dictionary_object = d.Dictionary()
+		except:
+			self.fail("Unable to create empty Dictionary Object.")
 
 if __name__ == '__main__':
     unittest.main()

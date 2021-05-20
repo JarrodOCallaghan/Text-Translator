@@ -20,18 +20,3 @@ class Dictionary:
 		return new_wordlist
 		#print(wordlist)
 		#return wordlist
-
-	def lookup_word(self, language, word):
-		found_words = ""
-		if language == '-en':
-			for dict_word in self.wordlist:
-				if word.lower() in dict_word[1].lower():
-					found_words = found_words + ", " + dict_word[0]
-		elif language == '-ar':
-			for dict_word in self.wordlist:
-				if word.lower() in dict_word[0].lower():
-					found_words = found_words + ", " + dict_word[1]
-		if found_words == "":
-			return "Unable to find word"
-		else:
-			return found_words

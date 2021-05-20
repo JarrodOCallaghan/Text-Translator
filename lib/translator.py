@@ -20,7 +20,9 @@ class Translator():
             found_words.append("?")
         return found_words
 
+
 # Need to split up to avoid duplication
+'''
     def search_single_word(self, language, word):
         # Translate single word
         found_words = ""
@@ -43,22 +45,25 @@ class Translator():
         else:
             return found_words
 
-    def translate_direct(self, language, sentence):
-        sentence = sentence.split()
-        translated_words = []
-        translated_sentence = ""
-        for word in sentence:
-            translated_words.append(self.translate_single_word(language, word))
+'''
 
-        for word_list in translated_words:
-            if len(word_list) > 1:
-                translated_sentence += "["
-                for word in word_list:
-                    if word == word_list[-1]:
-                        translated_sentence += word
-                    else:
-                        translated_sentence += word + "/"
-                translated_sentence += "] "
-            else:
-                translated_sentence += word_list[0] + " "
-        return translated_sentence
+
+def translate_direct(self, language, sentence):
+    sentence = sentence.split()
+    translated_words = []
+    translated_sentence = ""
+    for word in sentence:
+        translated_words.append(self.translate_single_word(language, word))
+
+    for word_list in translated_words:
+        if len(word_list) > 1:
+            translated_sentence += "["
+            for word in word_list:
+                if word == word_list[-1]:
+                    translated_sentence += word
+                else:
+                    translated_sentence += word + "/"
+            translated_sentence += "] "
+        else:
+            translated_sentence += word_list[0] + " "
+    return translated_sentence

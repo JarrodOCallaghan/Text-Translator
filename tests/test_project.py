@@ -62,6 +62,31 @@ class Test_single_translator(unittest.TestCase):
 		translation = dictionary.lookup_word(language,word)
 		self.assertEqual(translation, "Werte!")
 
+class Test_String_Translator(unittest.TestCase):
+	@classmethod
+	def setUpClass(cls):
+		cls.dictionary = d.Dictionary()
+		cls.wordlist = cls.dictionary.get_wordlist()
+		cls.translator = t.Translator(cls.dictionary)
+
+	def test_string_en_no_alt_words(self):
+		self.assertEqual(self.translator.translate_direct('-en', 'wind tail fire'), 'rlke tile ure ')
+
+	def test_string_en_with_alt_words(self):
+		self.assertEqual(self.translator.translate_direct('-en', 'wind good fire'),'rlke [mwarre/mwerre] ure ')
+
+	def test_string_en_nothing_found(self):
+		self.assertEqual(self.translator.translate_direct('-en', 'String'), "? ")
+
+	def test_string_ar_no_alt_words(self):
+		self.assertEqual(self.translator.translate_direct('-ar', 'rlke tile ure'),'wind tail fire ')
+
+	def test_string_ar_with_alt_words(self):
+		self.assertEqual(self.translator.translate_direct('-ar', 'rlke mwerre ure'),'wind [good/well/useable/proper/safe] fire ')
+
+	def test_string_ar_nothing_found(self):
+		self.assertEqual(self.translator.translate_direct('-ar', 'String'), "? ")
+
 class Test_dictionary(unittest.TestCase):
 	@classmethod
 	def setUpClass(cls):

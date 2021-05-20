@@ -112,6 +112,17 @@ Example:
 python3 text-translator.py -ml -en Hey! Over there!
 ```
 
+This project is using autopep8 as its linter. To use the linter:
+
+```
+autopep8 --in-place --aggressive --aggressive <filename>
+```
+
+e.g.:
+
+```
+autopep8 --in-place --aggressive --aggressive lib/translator.py
+```
 
 
 ### Tests

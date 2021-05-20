@@ -123,6 +123,20 @@ python -m unittest tests/test_project.py
 ```
 All test cases are currently in the test_project.py file.
 
+To run code coverage.py, under the project directory, use:
+
+```
+coverage run -m unittest tests/test_project.py
+```
+To view results, use:
+```
+coverage report
+```
+
+To generate A HTML page to view coverage results, use:
+```
+coverage html
+```
 
 ### RESOURCES:
 

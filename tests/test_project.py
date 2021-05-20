@@ -1,5 +1,5 @@
 import unittest
-import lib.translate_word as t
+import lib.translator as t
 import lib.word
 import lib.dictionary as d
 

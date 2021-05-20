@@ -1,0 +1,9 @@
+env/*
+*.index
+ckpt-*
+tensorflow_experiment/training_checkpoints/checkpoint
+.DS_Store
+htmlcov/
+lib/__pycache__/
+.coverage
+tensorflow_experiment/training_checkpoints/*

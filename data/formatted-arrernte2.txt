@@ -10,30 +10,42 @@ ahentye	throat
 ahentye	wanting
 ahentye	liking
 aherre	red kangaroo
+aherre	kangaroo
 aherte	bilby
 aherte	rabbit-eared bandicoot
+aherte	bandicoot
 aheye‑angkeme	to breathe
+aheye‑angkeme	breathe
 ahinenhe	woma python
+ahinenhe	python
 akalke‑ileme	divide up
 akalkelhe‑ileme	divide up
+akalke‑ileme	divide
+akalkelhe‑ileme	divide
 akalkelhe‑ileme	pick out
 akaltye	knowing how to
 akaltye	knowing about
+akaltye	knowing
 akaltye‑antheme	teach
 akaltyele‑antheme	teach
 akaltye‑irreme	learn
 akangkeme	be happy
+akangkeme	happy
 akangkeme	be pleased
+akangkeme	pleased
 akangkwe‑irreme	pay attention
 akangkwe‑irreme	listen properly
+akangkwe‑irreme	listen
 akaperte	head
 akarelheme	wait
 akarlkweme	bite into
 akarlkweme	chew
+akarlkweme	bite
 akarre	awake
 akeme	call
 akeme	refer to as
 akeme	cut something
+akeme	cut
 akeme	slice
 akeme	cut up
 akeme‑irreme	get up
@@ -44,22 +56,31 @@ akerte	tip
 ‑akerte	having
 akertne	up
 akertne	on top
+akertne	top
 akethe	outside
 akethe	in the open
+akethe	open
 akethe	exposed
 akethe	clearing
 akethe	plain
 akethe‑akethe	fairly open
+akethe‑akethe	little
 akethe‑akethe	just light
 akethe‑akethe	dawn
 Akeyulerre	Billygoat Hill
 akiltye‑ileme	split up animal carcase
 akiwarre	really upset
+akiwarre	upset
 akiwarre	in a temper
+akiwarre	temper
+akiwarre	annoyed
 akngakeme	separate out
+akngakeme	separate
 akngakeme	pick out
+akngakeme	pick
 akngakeme	choose
 akngarte‑iweme	turn something over
+akngarte‑iweme	turn
 akngarte‑iweme	change
 akngarte‑iweme	translate
 akngelheme	move
@@ -69,6 +90,7 @@ akngeme	carry
 akngerre	big
 akngerre	much
 akngerre	a lot
+akngerre	lot
 akngetyeme	bring
 akngeye	father
 akngeye	father’s brother
@@ -82,6 +104,7 @@ akurne	wrong
 akurne	not useable
 akurrknge	brain
 akutne	not knowing something
+akutne	unknown
 akutne	unfamiliar with
 akwangenye	left hand
 akwe‑arratye	right hand
@@ -94,6 +117,7 @@ akwerneme	put inside something
 akwerneme	insert
 akwerrke	small
 akwerrke	young of animals
+akwerrke	young
 akwete	still
 akwete	yet
 akwete	continuing
@@ -109,16 +133,19 @@ alarte	point of spear
 alaye	area of open water
 alaye	lake
 alaye	sea
-Alaye!	Look out!
+Alaye	Look out
 aleme	liver
 alengke‑iwelheme	hide yourself
+alengke‑iwelheme	hide
 alengke‑iweme	hide something
 alenye	tongue
 alepe	firestick
 alethange	traveller
 alethange	stranger
 alewatyerre	sand goanna
+alewatyerre	goanna
 alhampwe	child who has lost one or both parents
+alhampwe	orphin
 alharrkentye	lightning
 alhe	nose
 Alhekulye	Mt. Gillen
@@ -127,7 +154,9 @@ alheme	go
 alheme	go along
 alheme	travel
 alherreme	scratch something
+alherreme	scratch
 alhewelheme	wash yourself
+alhewelheme	bathe
 alheweme	wash something
 alhwarrpe	sad
 alhwarrpe	feeling sorrow
@@ -139,6 +168,7 @@ alkarle	flash
 alkere	sky
 alkereke‑irreme	take off and fly
 alkerele alheme	fly along
+alkerele alheme	fly
 alkngarlpe	hip
 alkngarnte	eyebrow
 alkngerurrke	ankle
@@ -146,6 +176,7 @@ alknge	eye
 alknge atherrke	green eyes
 alknge atherrke‑atherrke	green eyes
 alknge kwarte	eyeball
+alknge kwarte	eye
 alknge‑arlpelhe	eyelash
 alknge‑irlpelhe	eyelash
 alkngenthe	flame
@@ -163,6 +194,7 @@ alpeme	return
 alpeme	go back
 alperrantyeye	bush tomato
 alpmanthe	hot earth and ashes under fire for cooking in
+alpmanthe	coals
 alte	hair
 alte	fur
 althelheme	pluck stuff off yourself
@@ -173,19 +205,23 @@ alturle	west
 altyele	female cross-cousin
 altyerre	a dream
 altyerre	Dreaming
+altyerre	dream
 altyerre areme	to dream about
 Altyerrenge	Dreaming
 altyiweme	spill
 altyiweme	pour out
+altyiweme	pour
 altywere	hole
 altywere	open
 altywere‑ileme	to open
+altywere‑ileme	open
 altywere‑ileme	turn on
 alwerneme	chase
 alye	boomerang
 ilye	boomerang
 alyekwe	stone knife
 alyweke	stone knife
+alyweke	knife
 alyelheme	sing a song
 ilyelheme	sing a song
 alyeme	sing
@@ -208,6 +244,7 @@ ampe marle	girl
 ampe urreye	boy
 ampeke‑aneme	be upright against something
 ampeke‑aneme	lean on
+ampeke‑aneme	lean
 ampeke‑aneme	stick to
 ampeme	burn
 ampenye	leftovers
@@ -216,13 +253,17 @@ Ampetyane	one of the eight skin names
 ampwe	middle-aged or mature person
 amulte	arm
 anatye	bush potato
+anatye	potato
 anatye	type of yam
+anatye	yam
 ane	and
 aneme	sit
 aneme	live
 aneme	be
 anepe‑aneme	live at a place
 anewe	husband or wife
+anewe	husband
+anewe	wife
 anewe	spouse
 anewe‑akeme	marry
 anewe‑akeme	call someone spouse
@@ -230,11 +271,13 @@ Angale	one of the eight skin names
 angayakwe	hungry
 angayweke	hungry
 angeme	a fly
+angeme	fly
 angente	heat haze
 angente	mirage
 angepe	crow
 angerneme	dig into
 angerneme	dig out
+angerneme	dig
 angkeme	speak
 angkeme	talk
 angkentye	language
@@ -243,13 +286,14 @@ angkethakwe	thirsty
 angkulye	cloud
 angkwene	pink cockatoo
 angkwere	older sister
-angwenhe?	who?
-angwenhe‑kenhe?	whose?
+angwenhe	who
+angwenhe‑kenhe	whose
 angwerre	mid-afternoon
 anngwerre	mid-afternoon
 angwerre‑angwerre	late afternoon
 anngwerre‑anngwerre	late afternoon
 anheme	to rain
+anheme	rain
 anheme	to water
 anherre	husband’s mother
 ankele	male cross-cousin
@@ -269,8 +313,10 @@ anpeme	touch something
 anpeme	fiddle with it
 anpere	passing
 anpere	on the way through or past
+anpeme	touch
 anpere alheme	pass by
 anpere alheme	go past
+anpere alheme	pass
 anperneme	call someone a family relation
 anpernirreme	call each other relations
 anpernirreme	be related to each other in that way
@@ -320,6 +366,7 @@ antyeye	perspiration
 antyipere	smaller bat
 antywe	a nest
 antyweme	drink something
+antyweme	drink
 anwerne	we
 anwernenhe	us
 anyente	one
@@ -334,11 +381,14 @@ apaye‑uthneme	ask
 apeke	perhaps
 apeke	maybe
 apekeme	smash something
+apekeme	break
 apele	I know this myself
+apele	know
 apele	definitely
 apelkere	crested pigeon
 apenteme	follow someone
 apenteme	follow a path
+apenteme	follow
 aperaltye	sweetish food on gum tree leaves
 apere	river red gum tree
 Apere Alwerrknge	Palmers town camp
@@ -348,7 +398,7 @@ aperrke	hot coals
 aperreme	stalk
 aperreme	sneak along
 aperteme	stalk
-aperteme	sneak along
+aperteme	sneak
 apethe	animal pouch
 apetye‑alpeme	come back
 apetyeme	come
@@ -356,6 +406,7 @@ apmere	camp
 apmere	place
 apmere	country
 apmwe	any type of snake
+apmwe	snake
 apmwerrke	yesterday
 apure	shame
 apure	shy
@@ -365,6 +416,7 @@ apure	reserved
 apure‑irreme	feel shame
 apure‑irreme	be shy
 apure‑irreme	be embarrassed
+apure‑irreme	ashamed
 apurrke	tired
 apurrke‑irreme	get tired
 apurte	heap
@@ -384,10 +436,12 @@ apweteke	hailstones
 aremaye	short-tailed goanna
 areme	see
 areme	look at
+areme	look
 areme	have a look
 areme	watch
 arenge	euro
 ‑arenye	belonging to
+‑arenye	belonging
 ‑arenye	from
 ‑arenye	associated with
 arerre	chest
@@ -467,9 +521,11 @@ arnkwerte‑arnkwerte	winding
 arnpenheme	set off
 arnpenheme	go walking
 arnpenheme	set foot down
+arnpenheme	walking
 arnperrke	centipede
 arntarlkwe	fork of tree
 arnteme	to ache
+arnteme	ache
 arntengeye	sister-in-law
 arnterre	intensely
 arnterre	energetically
@@ -493,6 +549,8 @@ arntwerreme	grunt
 arntwirrkeme	take hold of
 arntwirrkeme	catch
 arnwere	humming or buzzing noise
+arnwere	humming
+arnwere	buzzing
 arrakerte	mouth
 arralkeme	open mouth wide
 arralkeme	yawn
@@ -627,7 +685,9 @@ atere	scared
 atere	afraid
 atere	frightened
 atere‑irreme	be scared
+atere‑irreme	scared
 atere‑irreme	get frightened
+atere‑irreme	frightened
 aterneme	straighten something out
 aternnge	dirty
 atertneme	squat down with feet flat on ground
@@ -678,12 +738,16 @@ atnunthe	animal
 atnurrknge	mushy grub guts
 atnurrknge	an old-fashioned kind of gruel or porridge
 atnwaltye	guts: stomach and intestines
+atnwaltye	guts
+atnwaltye	stomach
+atnwaltye	intestines
 atnware	heel
 atnware	back of foot
 atnyatye	mother’s brother
 atnyelhe‑ileme	drop something
 itnyelhe‑ileme	drop something
 atnyematye	grub from the witchetty bush
+atnyematye	witchetty grub
 atnyeme	fall
 atnyeme	witchetty bush
 atnyeneme	hold
@@ -770,7 +834,7 @@ ikwerenhe	hers
 ikwerenhe	its
 ileme	say
 ileme	tell
-ilengare?	when?
+ilengare	when
 ilentye	galah
 ilepe	stone axe
 ilerne	we two
@@ -789,9 +853,12 @@ iltyarnme	type of crustacean
 iltye	hand
 iltye	fingers
 iltye atnerte	palm of hand
+iltye atnerte	palm
 iltye kantye	finger
 iltye kantye	tip of finger
+iltye kantye	fingertip
 iltye‑irreme	to wave
+iltye‑irreme	wave
 iltywiltye	mantis
 iltywiltywe	mantis
 ilweme	die
@@ -828,7 +895,7 @@ ingkirreke	all
 ingkirreke	every
 ingkwe	nearly
 ingkwe	almost
-ingkwepeye	ants’ nest
+ingkwepeye	ant nest
 ingkwepeye	termite mound
 ingkwerlpe	pityuri
 ingkwerlpe	bush tobacco
@@ -866,6 +933,7 @@ intyeme	climb
 intyeme	ride
 intyeme	go up
 intyerrke	dried out
+intyerrke	dried
 intyerrke	dead
 inurle	spider
 inwenge	chest
@@ -967,14 +1035,14 @@ itnyeme	fall
 itwe	near
 iweme	throw
 iweme	throw away
-iwenhe?	what?
+iwenhe	what
 iwenhe‑akweye	watchamacallit
 iwenhe‑akweye	thingummy
-iwenheke?	why?
-iwenheke?	what for?
-iwenhenge?	why?
-iwenhenge?	because of what?
-iwenhenge?	what from?
+iwenheke	why
+iwenheke	what for
+iwenhenge	why
+iwenhenge	because of what
+iwenhenge	what from
 iwenye	mosquito
 iwepe	itchy grub
 iwepe	web
@@ -984,7 +1052,7 @@ iwerre	track
 Karnte	one of the town camps
 karnte‑karnte	round
 karnte‑karnte	circular
-kele	Done!
+kele	Done
 kele	OK
 kele	finished
 kele	already
@@ -1013,9 +1081,9 @@ kwerte	smoke
 kwerte	cigarette
 kwetere	wooden fighting club
 kwetere	nulla nulla
-Kweye?	I'm surprised; can that be right?
-Kweye?	Eh?
-Kweye?	Oops! How did I do that?
+Kweye	I'm surprised; can that be right
+Kweye	Eh
+Kweye	Oops How did I do that
 lhenpe	armpit
 Lhenpe Artnwe	Hoppy’s town camp
 lhere	creek
@@ -1055,7 +1123,7 @@ marteme	close
 marteme	block off
 marteme	turn off
 matye	mother
-Me!	Here take it!
+Me	Here take it
 merne	food from plants: vegetable
 merne	fruit
 metye	blunt
@@ -1064,7 +1132,7 @@ metye	corner
 meye	mother
 meye	mother’s sister
 Mparntwe	Alice Springs
-Mpe!	Let’s go!
+Mpe	Let’s go
 mpenge	ripe
 mpenge	cooked
 mpepe	middle
@@ -1107,7 +1175,7 @@ ngentye	soakage
 ngentye	hole dug for water
 ngkarte	God
 ngkarte	priest
-Ngke!	‘Give it here!’
+Ngke	‘Give it here’
 ngkerneme	stand something up
 ngkerneme	to plant
 ngkerneme	stops
@@ -1138,13 +1206,13 @@ nterte	quiet
 nterte	quietly
 nteweme	bash against something
 nteweme	throw someone down
-nthakenhe?	how?
-nthakentye?	how many?
-nthakintye?	how many?
-nthakentye?	how much?
-nthakintye?	how much?
-nthenhe?	where?
-nthenhe‑werne?	where to?
+nthakenhe	how
+nthakentye	how many
+nthakintye	how many
+nthakentye	how much
+nthakintye	how much
+nthenhe	where
+nthenhe‑werne	where to
 ntherrarte	blue-tongue lizardulhelke
 ntulye	shadow
 ntulye	solid shade
@@ -1345,8 +1413,8 @@ warle	wall
 weme	hit
 ‑werne	to
 ‑werne	towards
-Werte?	What’s up?
-Werte?	What’s going on?
+Werte	What’s up
+Werte	What’s going on
 Werte	Hello
 yanhe	over there
 yanhe	that
@@ -1365,20 +1433,20 @@ Yewe‑yewe	yes
 Yewe‑yewe	OK
 Yweke	Dunno
 Yweke	I don’t know
-Werte! Unte mwerre?	Hello! Are you well?
+Werte Unte mwerre	Hello Are you well
 Ye, ayenge mwerre	Yes, I'm alright
-Iwenhe anwerne mpware-tyenhe?	What shall we do?
+Iwenhe anwerne mpware-tyenhe	What shall we do
 Ayeye nhenhe mwerre anthurre	This is a good story
-Unte akngayekwe?	Are you hungry?
+Unte akngayekwe	Are you hungry
 Ye ayenge akngayekewe	Yes, I'm hungry
 Lyete ayenge apetyenhe	I just arrived today
-Unte iwenhe apatharre?	What's your skin?
-Ure itaye merne itetyeke!	Make a fire to cook the food
-Nthenhe-ntyele unte apetyenhe?	Where did you just come from?
+Unte iwenhe apatharre	What's your skin
+Ure itaye merne itetyeke	Make a fire to cook the food
+Nthenhe-ntyele unte apetyenhe	Where did you just come from
 Meye atyinhe atyinhe arritnye	My mother's name is
 akngeye atyinhe atyinhe arritnye	My Father's name is
-unte-ame merne arlkweke	Did you have breakfast today?
-iwenhe anwerne akaltye-irreme arlte lyete?	What are we learning today?
+unte-ame merne arlkweke	Did you have breakfast today
+iwenhe anwerne akaltye-irreme arlte lyete	What are we learning today
 warrke mwerre mpwareme	Quite working
 warrke mwantyele mpwaraye	Work slowly
 akarelhaye ante akangkwerretyeke	Stop and listen while i'm talking
@@ -1391,16 +1459,16 @@ nhenhele anaye	Come and sit on the carpet
 mwerre angketyeke arrpenhe mapeke	Be nice to eachother
 arne mape arrernaye	Start to pack up
 arrantherre lyete akaltyirreke	Did you's learn something today
-warrke akngerre unte mpwareke	How much work did you finish?
+warrke akngerre unte mpwareke	How much work did you finish
 ingwenthe aretyenhe	See you all tomorrow
 mwerre anetyeke lyete	Have a good day
 Ahakeye arelhe urrperlele arlkwentye akngerre, tyerrtyele apeke akngerre anthurre arlkweme arrakerte utyene irreme. Merne mwarre re ahakeye akweke ware arlkwetyeke.	Aboriginal people eat bush currants. If you eat lots of it you get a sore mouth. It's good but you should only eat a bit of it.
 Yanhele-arle ahanintyeme-ketye ayenge alheme.	I'm going because my son-in-law is coming over.
-Atnwenthe yanhe urreme iletyeke ahanenheliwe!	Take this food over and give it to my son-in-law.
+Atnwenthe yanhe urreme iletyeke ahanenheliwe	Take this food over and give it to my son-in-law.
 Anthelke mape rlkele werneke, kele aharle anetyenhenge itere arrpenhele aneme.	The wind blew the leaves, so that they were piled up on one side.
 Artwe atherrele apmere akngerre arremearle aknganeke tnyemele arreme itnenhenhe aharle-iweke irrarnpelhe-ilemele.	Two men dug up a site where lice were created and scattered them around in piles.
 Ingweleme aharlperre angkemele iletyarte tyerrtye akngerrepatele nthakenhearle irretyenhe akerte, altharte apeken of atnyenetyenhe, nthakenhe-arle irreke akerte apeke tyerrtye arrpenhe areyele awetyeke.	Old people used to speak publicly in the mornings, so that everyone would know what had happened or what was going to happen, like if they were going to hold an altharte ceremony.
-Arelhe nhakwe aharlperre anthurre angkeme, iwenheiperre, ahele apeke?	That woman is talking really loud, what's the matter with her? She must be mad with someone.
+Arelhe nhakwe aharlperre anthurre angkeme, iwenheiperre, ahele apeke	That woman is talking really loud, what's the matter with her She must be mad with someone.
 Urele apmere ahateilemele ampeke.	The fire burnt the house down
 Ulyentye ahate aneme.	The shadows are short.
 Athakwerele merne ahate ilemele arlkweke.	A mouse ate the end off the bread.
@@ -1412,45 +1480,45 @@ Anwerne Mparntwe-arenye tyerrtye mapele arrenhantherre welcome-ileme apmere anwe
 Yekaye, urinpe anthurre	Gee, it's really hot
 Meye, atnerte ayenge ampeme, ayenge angayakwe	Mum, my stomach's aching from hunger
 Urreke, akarelhaye, the merne iteme	Wait, I'm cooking food
-Iwenhe yanhe	What's that?
+Iwenhe yanhe	What's that
 Nhenhe kere arlewatyerre	This is a goanna
-Nthakenhe unte iteme?	How do you cook it?
+Nthakenhe unte iteme	How do you cook it
 Kere arlewatyerre alpmanthele iteme	Goanna is cooked in the hot earth
-Kere yanhe iwenhe-arteke?	What's that meat like?
+Kere yanhe iwenhe-arteke	What's that meat like
 Kere nhenhe chicken-arteke	This meat is like chicken
 Kele, kere akweke ayenge anthaye	Okay give me a little meat
-Yekaye, mwerre akngerre anthurre, awethe avenge anthaye!	Oh, it's really good. Give me some more!
-Me, awethe arlkwaye!	Here, take it. Eat some more!
-Apetyaye!	Come here!
-Werte, iwenhe aperte?	Hello, what's up?
+Yekaye, mwerre akngerre anthurre, awethe avenge anthaye	Oh, it's really good. Give me some more
+Me, awethe arlkwaye	Here, take it. Eat some more
+Apetyaye	Come here
+Werte, iwenhe aperte	Hello, what's up
 Ayenge ngkethakwe anthurre	I'm really thirsty
-Unte nthenhe-arenye?	Where are you from?
+Unte nthenhe-arenye	Where are you from
 Ayenge Mparntwe-arenye	I'm from Alice Springs
 Ayenge Kngwarraye	I'm a Kngwarraye
 Ayenge Peltharre	I'm a Peltharre
 Unte akngeye atyenhe	You're my father
 unte alere atyenhe	You're my son
-Akngeyaye, kwatye anthaye	Father, give me water!
-Yaye ngkwinhe mwerre?	Is your elder sister well?
+Akngeyaye, kwatye anthaye	Father, give me water
+Yaye ngkwinhe mwerre	Is your elder sister well
 Ye, mwerre anthurre	Yes, she's really well
-Re anewe-akerte?	Is she married?
+Re anewe-akerte	Is she married
 Ye, re a newe-akerte	Yes, she is married
-Re ampe akweke-akerte?	Has she got children?
+Re ampe akweke-akerte	Has she got children
 Ye, re ampe urrpetye-akerte	Yes, she's got three children
-Nthenhele itne aneme?	Where do they live?
+Nthenhele itne aneme	Where do they live
 Itne Imengkwernele aneme	They live at Amoonguna
-Arratye? Atyeye atyenhe yanhele aneme	True? My younger brother sister lives over there
-Unte nthenhe-arenye?	Where are you from?
-Atyenge ilaye, atyenge ilaye.	Tell me! Tell me!
+Arratye Atyeye atyenhe yanhele aneme	True My younger brother sister lives over there
+Unte nthenhe-arenye	Where are you from
+Atyenge ilaye, atyenge ilaye.	Tell me Tell me
 Ayenge apmere ikngerre-arenye.	I'm from a place in the east.
 Ltyentye Apurte, Ltyentye Apurte.	Santa Teresa, Santa Teresa.
 Apmere nhenhe mwerre anthurre.	That's very good place.
-Apetyaye!	Come here!
-Nthenhe-werne alheme?	Where are you going?
+Apetyaye	Come here
+Nthenhe-werne alheme	Where are you going
 Apmere-werne	Home
-Iwenheke?	What for?
+Iwenheke	What for
 Kereke	For meat
-Unte apetyeme?	Are you coming?
+Unte apetyeme	Are you coming
 Kele, ayenge apetyeme	Okay, I'm coming
 Arelhele mwantyele arntarnte-areme amperlkerte	The woman is carefully looking after the sick child
 Re a pale alheke	He went the wrong way

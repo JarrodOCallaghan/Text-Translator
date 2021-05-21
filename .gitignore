@@ -7,3 +7,7 @@ htmlcov/
 lib/__pycache__/
 .coverage
 tensorflow_experiment/training_checkpoints/*
+__pycache__/
+*.py[cod]
+!**/__pycache__/
+*.pyc

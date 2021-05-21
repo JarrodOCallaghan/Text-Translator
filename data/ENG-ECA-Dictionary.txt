@@ -1097,7 +1097,7 @@ mwerre	good
 mwerre	well
 mwerre	useable
 mwerre	proper
-mwerre	safem
+mwerre	safe
 nanthe	horse
 ‑nge‑ntyele	from
 ‑nge‑ntyele	out of

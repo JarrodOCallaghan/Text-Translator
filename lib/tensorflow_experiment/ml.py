@@ -13,8 +13,8 @@ import os
 import io
 import time
 
-path_to_file = r'C:\Users\Jarrod\Documents\Text-Translator\tensorflow_experiment\dataset\formatted-arrernte2.txt'
-#path_to_file = '/home/jarrod/Documents/Text-Translator/tensorflow_experiment/dataset/formatted-arrernte2.txt'
+#path_to_file = r'C:\Users\Jarrod\Documents\Text-Translator\tensorflow_experiment\dataset\formatted-arrernte2.txt'
+path_to_file = 'lib/tensorflow_experiment/dataset/formatted-arrernte2.txt'
 dirname = os.path.dirname(path_to_file)
 
 def unicode_to_ascii(s):
@@ -41,14 +41,6 @@ def preprocess_sentence(w):
   w = '<start> ' + w + ' <end>'
   return w
 
-
-
-
-eng_sentence = u"Yes, I'm alright"
-arr_sentence = u"Ye, ayenge mwerre"
-print(preprocess_sentence(eng_sentence))
-print(preprocess_sentence(arr_sentence).encode('utf-8'))
-
 # 1. Remove the accents
 # 2. Clean the sentences
 def create_dataset(path, num_examples):
@@ -61,10 +53,6 @@ def create_dataset(path, num_examples):
 
 
 eng, arr = create_dataset(path_to_file, None)
-print(eng[-1])
-print(arr[-1])
-
-
 
 def tokenize(lang):
 	lang_tokenizer = tf.keras.preprocessing.text.Tokenizer(filters='')
@@ -92,18 +80,20 @@ max_length_targ, max_length_inp, = target_tensor.shape[1], input_tensor.shape[1]
 input_tensor_train, input_tensor_val, target_tensor_train, target_tensor_val = train_test_split(input_tensor, target_tensor, test_size=0.2)
 
 # Show length
-print(len(input_tensor_train), len(target_tensor_train), len(input_tensor_val), len(target_tensor_val))
+#print(len(input_tensor_train), len(target_tensor_train), len(input_tensor_val), len(target_tensor_val))
 
 def convert(lang, tensor):
 	for t in tensor:
 		if t != 0:
 			print(f'{t} ----> {lang.index_word[t]}')
 
+'''
 print("Input Language; index to word mapping")
 convert(inp_lang, input_tensor_train[0])
 print()
 print("Target Language; index to word mapping")
 convert(targ_lang, target_tensor_train[0])
+'''
 
 BUFFER_SIZE = len(input_tensor_train)
 BATCH_SIZE = 64
@@ -173,8 +163,13 @@ class BahdanauAttention(tf.keras.layers.Layer):
 
 attention_layer = BahdanauAttention(10)
 attention_result, attention_weights = attention_layer(sample_hidden, sample_output)
+
+'''
 print("Attention result shape: (batch size, units)", attention_result.shape)
 print("Attention weights shape: (batch_size, sequence_length, 1)", attention_weights.shape)
+'''
+
+
 
 class Decoder(tf.keras.Model):
 	def __init__(self, vocab_size, embedding_dim, dec_units, batch_sz):
@@ -199,7 +194,8 @@ class Decoder(tf.keras.Model):
 decoder = Decoder(vocab_tar_size, embedding_dim, units, BATCH_SIZE)
 sample_decoder_output, _, _ = decoder(tf.random.uniform((BATCH_SIZE, 1)), sample_hidden, sample_output)
 
-print('Decoder output shape: (batch_size, vocab size)', sample_decoder_output.shape)
+
+#print('Decoder output shape: (batch_size, vocab size)', sample_decoder_output.shape)
 
 optimizer = tf.keras.optimizers.Adam()
 loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True, reduction='none')
@@ -324,8 +320,3 @@ def translate(sentence):
 
 #call_training()
 checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
-
-#translate(u'bad')
-translate(u'Hello, how are you')
-translate(u'He hit the man')
-translate(u'The kangaroo is angry')

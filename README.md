@@ -6,6 +6,8 @@ This project aims to implement a two way translator for English and Central East
 
 A great resource to test translations is the following site: https://arrernte-angkentye.online/
 
+Please note, when running the Tensorflow training function, access to a GPU with Cuda cores. For more information, see https://www.tensorflow.org/install/gpu.
+
 ### Goals
 * The current goals include implementing a feedback loop to put direct translations into the implemented TensorFlow Neural Language Translation. Assisting with the dataset for the TensorFlow training model. This is because there is limited English - Central Eastern Arrernte examples.
 

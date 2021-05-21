@@ -1,6 +1,5 @@
 import unittest
 import lib.translator as t
-import lib.word as w
 import lib.dictionary as d
 
 class Test_Dictionary(unittest.TestCase):
@@ -22,12 +21,7 @@ class Test_Dictionary(unittest.TestCase):
 			wordlist = dictionary.get_wordlist(" ")
 
 
-class Test_Word(unittest.TestCase):
-	def test_new_word(self):
-		try:
-			word = w.Word("A","B")
-		except:
-			self.fail("Unable to create word object")
+
 
 
 class Test_single_translator(unittest.TestCase):

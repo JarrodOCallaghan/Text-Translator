@@ -3,6 +3,11 @@ import os
 import lib.dictionary as d
 import lib.tensorflow_experiment.ml as tf
 
+
+'''
+Split machine learning functionality into its own class while the training dataset is low.
+Also splitting as the import lib.tensorflow_experiment.ml code was slowing translations as it loaded  in the tensorflow script
+'''
 def main():
     # Main menu for the program
     print("Text translator for English and Eastern Central Arrernte")
@@ -10,13 +15,6 @@ def main():
 
 
 def menu(arguments):
-
-    # Options:
-    # No arguments given, print basic help (sys.argv only has python file name
-    # as arg[0])
-
-
-
     if len(arguments) == 1:
         print(text_basic_help)
     elif arguments[1] == '-h' or arguments[1] == '--help':

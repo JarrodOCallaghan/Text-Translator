@@ -6,11 +6,15 @@ This project aims to implement a two way translator for English and Central East
 
 
 ### Goals
-The current goals include implementing a feedback loop to put direct translations into the implemented TensorFlow Neural Language Translation. Assisting with the dataset for the TensorFlow training model. This is because there is limited English - Central Eastern Arrernte examples.
+* The current goals include implementing a feedback loop to put direct translations into the implemented TensorFlow Neural Language Translation. Assisting with the dataset for the TensorFlow training model. This is because there is limited English - Central Eastern Arrernte examples.
 
-It would be useful to implement a syntax formatter in the code which could be used to feed into the TensorFlow Training Model.
+* It would be useful to implement a syntax formatter in the code which could be used to feed into the TensorFlow Training Model.
 
-The project also aims to be able to translate large bodies of text in the future. For example, a news article or the text in a book. This is pending on an accurate consistent implementation of translation.
+* The project also aims to be able to translate large bodies of text in the future. For example, a news article or the text in a book. This is pending on an accurate consistent implementation of translation.
+
+* Some of the code can be refactored. There is some duplication in the code which can be reduced, for example the translator has loops to search wordlist, this can be split up into its own functions. Also, there is potential for larger bodies of text to perform slowly due to O(n^2) complexity for each word is looked up individually. May need to look at a more suitable data structure to solve this issue.
+
+* Refactor the tensorflow ml.py code so functions are split up more effectively.
 
 ### Limitations
 
@@ -30,7 +34,7 @@ Navigate to the project directory and create a new python environment:
 
 For Mac / Unix:
 ```
-	python3 -m venv env
+python3 -m venv env
 ```
 For Windows:
 ```
@@ -61,6 +65,28 @@ After setting up the python environment, the project can be ran using:
 ```
 python3 text-translator.py
 ```
+
+#### Training the Translator
+
+To save project space, the training checkpoint's haven't been included in the repo.
+The project currently has removed the training function from being callable from the command line tool.
+To run the training function, changed the following code in the file /lib/tensorflow_experiment/ml.py
+
+```
+path_to_file = 'lib/tensorflow_experiment/dataset/formatted-arrernte2.txt'
+```
+to
+```
+path_to_file = /dataset/formatted-arrernte2.txt
+```
+
+and at the bottom of the ml.py file, uncomment out the following:
+```
+#call_training()
+```
+
+When running this script from within the lib/tensorflow_experiment file, the script will train based on the formatted-arrernte2.txt text document.\
+Please not that this changes the relative path for the formatted-arrernte2.txt script and you will need to change it back to run python ml-text-translator.py
 
 ### Translation functionality
 

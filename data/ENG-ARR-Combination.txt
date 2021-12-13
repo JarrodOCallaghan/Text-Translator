@@ -984,6 +984,7 @@ iwepe|web
 iwerre|path
 iwerre|road
 iwerre|track
+kamule|camel
 Karnte|one of the town camps
 karnte‑karnte|round
 karnte‑karnte|circular
@@ -1083,6 +1084,7 @@ mpwere|maggot
 mpwerne|brother-in-law
 mpwerneye|brother-in-law
 Mpwetyerre|Abbotts town camp
+mutakaye|car
 mwantye|slowly
 mwantye|carefully
 mwantye|cautiously
